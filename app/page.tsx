@@ -1,4 +1,4 @@
-import Header from "./components/Header/Header";
+import { Header } from "./components/Header/Header";
 
 
 export default function Home() {
@@ -13,10 +13,10 @@ export default function Home() {
         <div className="overflow-hidden">
           <div className="relative h-screen">
             <img
-            className="absolute top-0 transition ease-in duration-200 max-xl:right-[-1050px] xl:right-[-970px] image" 
-            width='4377' 
-            src="https://github.githubassets.com/images/modules/site/home-campaign/hero-bg.webp" 
-            alt="" 
+              className="absolute top-0 transition ease-in duration-200 max-xl:right-[-1050px] xl:right-[-970px] image"
+              width='4377'
+              src="https://github.githubassets.com/images/modules/site/home-campaign/hero-bg.webp"
+              alt=""
             />
           </div>
         </div>

@@ -7,7 +7,7 @@ type Props = {
     path: string;
 }
 
-export default function Headerlist2({ main, path }: Props) {
+export function Headerlist2({ main, path }: Props) {
     const [focus, setFocus] = useState<boolean>(false);
 
     return (
