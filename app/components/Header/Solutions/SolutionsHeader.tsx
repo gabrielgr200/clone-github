@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useState } from "react";
-import { Headerlist } from '../HeaderUtils/Headerlist';
 import { Headerlist2 } from '../HeaderUtils/Headerlist2';
 
 
