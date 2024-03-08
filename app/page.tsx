@@ -1,5 +1,6 @@
 import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero Section/Hero";
+import { Productivity } from "./components/Productivity/Productivity";
 
 
 export default function Home() {
@@ -22,6 +23,9 @@ export default function Home() {
           </div>
           <div className="Hero-section px-3">
             <Hero />
+          </div>
+          <div className="px-4 pt-8 overflow-hidden mb-32" id="productivity">
+            <Productivity />
           </div>
         </div>
       </div>
